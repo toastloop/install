@@ -1,4 +1,6 @@
 {
+    "!encryption-password": null,
+    "!root-password": null,
     "!users": [
         {
             "!password": "",
