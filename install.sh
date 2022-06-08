@@ -1,4 +1,8 @@
 #!/bin/bash
+
+read -p 'Username: ' username
+read -sp 'Password: ' password
+
 echo "Please choose an option:"
 echo "1. Desktop"
 echo "2. Server"
