@@ -1,7 +1,11 @@
 #!/bin/bash
 
-read -p 'Username: ' username
-read -sp 'Password: ' password
+cp pacman.conf /etc/pacman.conf
+
+cd $HOME
+
+#read -p 'Username: ' username
+#read -sp 'Password: ' password
 
 echo "Please choose an option:"
 echo "1. Desktop"
