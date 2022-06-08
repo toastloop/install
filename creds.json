@@ -3,9 +3,9 @@
     "!root-password": null,
     "!users": [
         {
-            "!password": "",
+            "!password": "test1234",
             "sudo": true,
-            "username": "matt"
+            "username": "johndoe"
         }
     ]
 }
