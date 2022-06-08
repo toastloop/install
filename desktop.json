@@ -7,7 +7,7 @@
     "bootloader": "systemd-bootctl",
     "config_version": "2.5.0",
     "debug": false,
-    "desktop-enviroment": "awesome",
+    "desktop-enviroment": "kde",
     "dry_run": false,
     "gfx_driver": "All open-source (default)",
     "harddrives": [
@@ -126,7 +126,7 @@
         
     ],
     "plugin": null,
-    "profile": "awesome",
+    "profile": "kde",
     "script": "guided",
     "services": [
 
