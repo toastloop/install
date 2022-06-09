@@ -207,7 +207,6 @@
         "libvirtd",
         "cups",
         "ufw",
-        "preload",
         "reflector",
         "xdg-users-dirs-update"
     ],
