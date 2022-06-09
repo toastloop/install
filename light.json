@@ -81,8 +81,6 @@
     "timezone": "America/Denver",
     "version": "2.5.0",
     "custom-commands": [
-        "rustup default stable",
-        "xdg-user-dirs-update",
-        "flatpak install flathub --system --app --assumeyes --noninteractive --or-update org.kde.ark org.mozilla.firefox com.visualstudio.code"
+        "rustup default stable"
     ]
 }

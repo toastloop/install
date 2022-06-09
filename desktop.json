@@ -218,7 +218,6 @@
     "version": "2.5.0",
     "custom-commands": [
         "rustup default stable",
-        "archlinux-java set java-18-openjdk",
-        "flatpak install flathub --system --app --assumeyes --noninteractive --or-update org.kde.ark io.atom.Atom org.audacityteam.Audacity com.bitwarden.desktop org.blender.Blender com.usebottles.bottles org.gnome.Boxes org.gnome.Calculator org.gnome.Cheese org.chromium.Chromium com.github.suzie97.communique com.github.hluk.copyq org.desmume.DeSmuME com.discordapp.Discord org.kde.dolphin org.DolphinEmu.dolphin-emu com.github.wwmm.easyeffects im.riot.Riot org.fedoraproject.MediaWriter org.mozilla.firefox org.flameshot.Flameshot com.github.tchx84.Flatseal com.meetfranz.Franz io.github.shiftey.Desktop org.gimp.GIMP org.gpodder.gpodder org.kde.gwenview fr.handbrake.ghb com.heroicgameslauncher.hgl io.github.Hexchat org.inkscape.Inkscape re.sonny.Junction org.kde.kdenlive tv.kodi.Kodi org.kde.krita org.kde.kwrite org.gnome.Lollypop io.github.m64p.m64p com.github.marktext.marktext io.mgba.mGBA io.mpv.Mpv com.obsproject.Studio org.kde.okular org.onlyofffice.desktopeditors com.parsecgaming.parsec org.ppsspp.PPSSPP org.qbittorrent.qBittorrent org.remmina.Remmina org.libretro.RetroArch net.rpcs3.RPCS3 de.haeckerfelix.Shortwave org.gnome.Shotwell com.slack.Slack com.spotify.Client com.valvesoftware.Steam org.stellarium.Stellarium me.kozec.syncthingtk org.telegram.desktop org.mozilla.Thunderbird com.visualstudio.code org.videolan.VLC org.yuzu_emu.yuzu us.zoom.Zoom"
+        "archlinux-java set java-18-openjdk"
     ]
 }
