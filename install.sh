@@ -47,16 +47,18 @@ function desktop(){
 function menu(){
     echo -e "\n\nPlease choose an option:"
     echo "1. Desktop"
-    echo "2. Server"
-    echo "3. Xorg"
-    echo -e "4. Minimal\n"
+    echo "2. Light"
+    echo "3. Server"
+    echo "4. Xorg"
+    echo -e "5. Minimal\n"
     while read -p "Please select an option [1-4] " option
     do
     case $option in
         [1]* ) desktop;break;;
-        [2]* ) archinstall --config $SCRIPT/server.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
-        [3]* ) archinstall --config $SCRIPT/xorg.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
-        [4]* ) archinstall --config $SCRIPT/minimal.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
+        [2]* ) archinstall --config $SCRIPT/light.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
+        [3]* ) archinstall --config $SCRIPT/server.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
+        [4]* ) archinstall --config $SCRIPT/xorg.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
+        [5]* ) archinstall --config $SCRIPT/minimal.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;break;;
         "" ) archinstall --config $SCRIPT/minimal.json --creds $SCRIPT/creds.json --disk_layouts $SCRIPT/disk.json;;
         * ) echo "Error: Please enter a number between 1 and 4.";;
     esac
